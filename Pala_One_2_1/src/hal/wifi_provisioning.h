@@ -32,7 +32,7 @@ void begin();                                // setup() — register lib callbac
 void loop();                                 // main loop — gated internally by Serial
 bool isActive();                             // true while listening (for lightsleep gate)
 
-// upload_screen marks the session boundaries so we know to keep our hands
+// WifiScreen marks the session boundaries so we know to keep our hands
 // off Wi-Fi while a session is up.
 void notifyUploadSession(bool active);
 

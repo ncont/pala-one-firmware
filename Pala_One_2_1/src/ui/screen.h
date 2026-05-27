@@ -20,7 +20,7 @@ public:
   virtual void onSleep() {}
 
   // May the device deep-sleep while this screen is active? Default yes;
-  // UploadScreen overrides to false because a sleeping device can't keep its
+  // WifiScreen overrides to false because a sleeping device can't keep its
   // Wi-Fi session (AP or STA) up.
   virtual bool allowSleep() const { return true; }
 

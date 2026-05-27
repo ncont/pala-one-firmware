@@ -101,7 +101,7 @@
 #include "src/ui/screens/list_screen.h"
 #include "src/ui/screens/reader_screen.h"
 #include "src/ui/screens/statistics_screen.h"
-#include "src/ui/screens/upload_screen.h"
+#include "src/ui/screens/wifi_screen.h"
 #include "src/ui/lock.h"
 #include "src/ui/screensavers.h"
 #include "src/ui/sleep.h"
@@ -115,7 +115,7 @@
 // ============================================================================
 LibraryScreen              g_libraryScreen;
 ReaderScreen               g_readerScreen;
-UploadScreen               g_uploadScreen;
+WifiScreen                 g_wifiScreen;
 AboutScreen                g_aboutScreen;
 AppsScreen                 g_appsScreen;
 ListScreen                 g_listScreen;
@@ -346,7 +346,7 @@ void loop() {
   // Light-sleep idle gating. The single biggest battery saver while reading:
   // between page turns the loop has nothing to do, so we drop the CPU until
   // either the button is pressed or a short timer fires for housekeeping.
-  // Skipped on screens that need the CPU active (UploadScreen → SoftAP), and
+  // Skipped on screens that need the CPU active (WifiScreen → SoftAP), and
   // mid-click-sequence — the classifier's trailing-silence wait runs against
   // millis(), and sleeping through it would add up to one tick interval of
   // latency per emit. Cost of staying awake during a click sequence is at

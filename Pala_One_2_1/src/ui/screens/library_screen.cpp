@@ -14,7 +14,7 @@
 #include "src/ui/screens/list_screen.h"
 #include "src/ui/screens/reader_screen.h"
 #include "src/ui/screens/statistics_screen.h"
-#include "src/ui/screens/upload_screen.h"
+#include "src/ui/screens/wifi_screen.h"
 #include "src/ui/widgets.h"
 
 // ============================================================================
@@ -252,7 +252,7 @@ void LibraryScreen::onButton(const ButtonEvent& e) {
   }
 
   if (sel.type == LIB_ENTRY_UPLOAD) {
-    nextScreen = &g_uploadScreen;
+    nextScreen = &g_wifiScreen;
     return;
   }
 

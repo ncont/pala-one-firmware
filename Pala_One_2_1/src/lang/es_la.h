@@ -55,7 +55,7 @@
 #define D_LIST_NONE                 "Sin elementos"
 
 // ----------------------------------------------------------------------------
-//  Upload screen
+//  Wifi screen (src/ui/screens/wifi_screen.cpp)
 // ----------------------------------------------------------------------------
 #define D_UPLOAD_HEADER             "Subir"
 #define D_UPLOAD_WIFI               "Wi-Fi"
