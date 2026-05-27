@@ -35,7 +35,7 @@
 #define D_MENU_APPS                 "Apps"
 #define D_MENU_STATISTICS           "Estadísticas"
 #define D_MENU_DEVICE               "Dispositivo"
-#define D_MENU_UPLOAD               "Conectar"
+#define D_MENU_WIFI                 "Acceso Wifi"
 #define D_LIBRARY_OPEN_FAILED       "Error al abrir"
 #define D_LIBRARY_TRY_UPLOAD        "Intente subir de nuevo"
 

@@ -126,7 +126,7 @@ static String entryLabel(const LibEntry& e) {
     case LIB_ENTRY_APPS:       return D_MENU_APPS;
     case LIB_ENTRY_STATISTICS: return D_MENU_STATISTICS;
     case LIB_ENTRY_ABOUT:      return D_MENU_DEVICE;
-    case LIB_ENTRY_UPLOAD:     return D_MENU_UPLOAD;
+    case LIB_ENTRY_UPLOAD:     return D_MENU_WIFI;
   }
   return "";
 }

@@ -32,7 +32,7 @@
 #define D_MENU_APPS                 "Apps"
 #define D_MENU_STATISTICS           "Statistics"
 #define D_MENU_DEVICE               "Device"
-#define D_MENU_UPLOAD               "Upload"
+#define D_MENU_WIFI                 "Wifi Access"
 #define D_LIBRARY_OPEN_FAILED       "Open failed"
 #define D_LIBRARY_TRY_UPLOAD        "Try upload again"
 
